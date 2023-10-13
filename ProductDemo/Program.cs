@@ -8,7 +8,7 @@ string connString = builder.Configuration.GetConnectionString("ProductDB");
 builder.Services.AddDbContext<ProductDbContext>(options =>
 {
     options.UseSqlServer(connString);
-
+    //test@@@
 });
 
 // Add services to the container.
